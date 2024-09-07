@@ -1,0 +1,35 @@
+.Shape_Description {
+    width: 60vw;
+    max-height: 19vh;
+    background: linear-gradient(90deg, #EEEEEE 0%, #D9D9D9 99.14%);
+    position: fixed;
+    top: 12vh;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.Shape_Description_Title {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: left;
+    padding: 2%;
+}
+
+.Shape_Description_Description {
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding: 2%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
