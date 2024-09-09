@@ -1,3 +1,33 @@
+
+@media (max-width: 1200px) {
+    .adaptive {
+        width: 1000px;
+        grid-template-columns: 1fr-280px;
+    }
+}
+@media (max-width: 1000px) {
+    .adaptive {
+        width: 768px;
+        grid-template-columns: 1fr-250px;
+    }
+}
+@media (max-width: 768px) {
+    .title {
+        font-size: 4.5vw;
+        font-weight: 200
+    }
+    .adaptive {
+        width: 480px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-rows: 100px;
+    }
+}
+@media (max-width: 480px) {
+    .adaptive {
+        width: 100%;
+    }
+}
 .Shape_Description {
     width: 60vw;
     max-height: 19vh;
